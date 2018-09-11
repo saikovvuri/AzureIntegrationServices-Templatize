@@ -1,0 +1,30 @@
+{
+  "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "LogicAppName": {
+      "value": "EchoApp"
+    },
+    "functionAppName": {
+      "value": "IntegrationSvc-FnApp"
+    },
+    "publisherEmail": {
+      "value": "email@example.com"
+    },
+    "publisherName": {
+      "value": "templateTest"
+    },
+    "serviceBusNamespaceName": {
+      "value": "IntegrationSvc-Ns"
+    },
+    "serviceBusTopicName1": {
+      "value": "IntegrationSvc-Topic-1"
+    },
+    "serviceBusTopicName2": {
+      "value": "IntegrationSvc-Topic-2"
+    },
+    "serviceBusSubscriptionName": {
+      "value": "IntegrationSvc-Subs"
+    }
+  }
+}
